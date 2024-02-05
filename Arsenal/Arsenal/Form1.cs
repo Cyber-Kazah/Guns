@@ -141,13 +141,13 @@ namespace Arsenal
 
         private void FiltrButton_Click(object sender, EventArgs e)
         {
-            if(Filtrpanel.Size.Height > FiltrButton.Size.Height)
+            if(Filtrpanel.Height > FiltrButton.Height)
             {
-                Filtrpanel.Size.Height > FiltrButton.Size.Height;
+                Filtrpanel.Height = FiltrButton.Height;
             }
             else
             {
-                Filtrpanel.Size.Height = 94;
+                Filtrpanel.Height = 94;
             }
         }
     }
