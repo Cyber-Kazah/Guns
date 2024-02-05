@@ -132,5 +132,23 @@ namespace Arsenal
                 Hello_label.Text = "Хихихиха" + Aut_Form.Login;
             }
         }
+
+        private void Reg_Button_Click(object sender, EventArgs e)
+        {
+            Reg_Form reg = new Reg_Form();
+            reg.ShowDialog();
+        }
+
+        private void FiltrButton_Click(object sender, EventArgs e)
+        {
+            if(Filtrpanel.Size.Height > FiltrButton.Size.Height)
+            {
+                Filtrpanel.Size.Height > FiltrButton.Size.Height;
+            }
+            else
+            {
+                Filtrpanel.Size.Height = 94;
+            }
+        }
     }
 }

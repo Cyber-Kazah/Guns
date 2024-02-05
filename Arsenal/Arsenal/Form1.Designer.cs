@@ -30,10 +30,13 @@
         {
             this.ViewPanel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.Aut_Button = new System.Windows.Forms.Button();
             this.Hello_label = new System.Windows.Forms.Label();
+            this.Aut_Button = new System.Windows.Forms.Button();
+            this.Filtrpanel = new System.Windows.Forms.Panel();
+            this.Reg_Button = new System.Windows.Forms.Button();
+            this.FiltrButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.Filtrpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // ViewPanel
@@ -50,6 +53,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.RosyBrown;
+            this.panel1.Controls.Add(this.Reg_Button);
             this.panel1.Controls.Add(this.Hello_label);
             this.panel1.Controls.Add(this.Aut_Button);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -59,14 +63,14 @@
             this.panel1.Size = new System.Drawing.Size(1278, 73);
             this.panel1.TabIndex = 9;
             // 
-            // panel2
+            // Hello_label
             // 
-            this.panel2.BackColor = System.Drawing.Color.DarkSalmon;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 73);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1278, 94);
-            this.panel2.TabIndex = 10;
+            this.Hello_label.AutoSize = true;
+            this.Hello_label.Location = new System.Drawing.Point(213, 27);
+            this.Hello_label.Name = "Hello_label";
+            this.Hello_label.Size = new System.Drawing.Size(64, 25);
+            this.Hello_label.TabIndex = 1;
+            this.Hello_label.Text = "label1";
             // 
             // Aut_Button
             // 
@@ -78,21 +82,42 @@
             this.Aut_Button.UseVisualStyleBackColor = true;
             this.Aut_Button.Click += new System.EventHandler(this.Aut_Button_Click);
             // 
-            // Hello_label
+            // Filtrpanel
             // 
-            this.Hello_label.AutoSize = true;
-            this.Hello_label.Location = new System.Drawing.Point(213, 27);
-            this.Hello_label.Name = "Hello_label";
-            this.Hello_label.Size = new System.Drawing.Size(64, 25);
-            this.Hello_label.TabIndex = 1;
-            this.Hello_label.Text = "label1";
+            this.Filtrpanel.BackColor = System.Drawing.Color.DarkSalmon;
+            this.Filtrpanel.Controls.Add(this.FiltrButton);
+            this.Filtrpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Filtrpanel.Location = new System.Drawing.Point(0, 73);
+            this.Filtrpanel.Name = "Filtrpanel";
+            this.Filtrpanel.Size = new System.Drawing.Size(1278, 94);
+            this.Filtrpanel.TabIndex = 10;
+            // 
+            // Reg_Button
+            // 
+            this.Reg_Button.Location = new System.Drawing.Point(1045, 25);
+            this.Reg_Button.Name = "Reg_Button";
+            this.Reg_Button.Size = new System.Drawing.Size(192, 33);
+            this.Reg_Button.TabIndex = 2;
+            this.Reg_Button.Text = "Регистрация";
+            this.Reg_Button.UseVisualStyleBackColor = true;
+            this.Reg_Button.Click += new System.EventHandler(this.Reg_Button_Click);
+            // 
+            // FiltrButton
+            // 
+            this.FiltrButton.Location = new System.Drawing.Point(0, 0);
+            this.FiltrButton.Name = "FiltrButton";
+            this.FiltrButton.Size = new System.Drawing.Size(161, 31);
+            this.FiltrButton.TabIndex = 0;
+            this.FiltrButton.Text = "Фильтр";
+            this.FiltrButton.UseVisualStyleBackColor = true;
+            this.FiltrButton.Click += new System.EventHandler(this.FiltrButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1278, 571);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.Filtrpanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ViewPanel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -102,6 +127,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.Filtrpanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -109,9 +135,11 @@
         #endregion
         private System.Windows.Forms.Panel ViewPanel;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel Filtrpanel;
         private System.Windows.Forms.Button Aut_Button;
         private System.Windows.Forms.Label Hello_label;
+        private System.Windows.Forms.Button Reg_Button;
+        private System.Windows.Forms.Button FiltrButton;
     }
 }
 

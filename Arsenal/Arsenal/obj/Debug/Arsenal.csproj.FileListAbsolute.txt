@@ -11,3 +11,17 @@ D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.exe
 D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.pdb
 D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.InfoForm.resources
 D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.Aut_Form.resources
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\bin\Debug\Arsenal.exe.config
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\bin\Debug\Arsenal.exe
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\bin\Debug\Arsenal.pdb
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.Aut_Form.resources
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.Form1.resources
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.InfoForm.resources
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.Properties.Resources.resources
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.exe
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.pdb
+C:\Users\user\Source\Repos\Guns\Arsenal\Arsenal\obj\Debug\Arsenal.Reg_Form.resources
