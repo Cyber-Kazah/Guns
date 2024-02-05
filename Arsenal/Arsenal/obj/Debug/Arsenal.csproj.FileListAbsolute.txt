@@ -1,0 +1,13 @@
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\bin\Debug\Arsenal.exe.config
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\bin\Debug\Arsenal.exe
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\bin\Debug\Arsenal.pdb
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.AssemblyReference.cache
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.SuggestedBindingRedirects.cache
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.Form1.resources
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.Properties.Resources.resources
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.GenerateResource.cache
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.csproj.CoreCompileInputs.cache
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.exe
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.pdb
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.InfoForm.resources
+D:\Зайцев Макс\Jack\Arsenal\Arsenal\obj\Debug\Arsenal.Aut_Form.resources
